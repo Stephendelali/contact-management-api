@@ -1,7 +1,7 @@
 const asyncHandler = require("express-async-handler");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const User = require("../models/userModel");  // Changed variable name to uppercase
+const User = require("../models/userModel"); 
 
 // @desc Register a new user
 //@route POST /api/users/register
